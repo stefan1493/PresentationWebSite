@@ -1,0 +1,321 @@
+{% extends "base.html" %}
+
+{% block title %}Our Projects - EuroFunds Consulting{% endblock %}
+
+{% block content %}
+<!-- Page Header -->
+<section class="py-5 bg-light mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="display-4 fw-bold text-primary mb-3">Our Successful Projects</h1>
+                <p class="lead">Showcasing our track record of successful European funding projects</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Project Stats -->
+<section class="py-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="card border-primary">
+                    <div class="card-body">
+                        <i class="fas fa-euro-sign text-primary mb-3" style="font-size: 3rem;"></i>
+                        <h3 class="fw-bold text-primary">€52.8M</h3>
+                        <p class="text-muted">Total Funding Secured</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card border-success">
+                    <div class="card-body">
+                        <i class="fas fa-project-diagram text-success mb-3" style="font-size: 3rem;"></i>
+                        <h3 class="fw-bold text-success">156</h3>
+                        <p class="text-muted">Successful Projects</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card border-info">
+                    <div class="card-body">
+                        <i class="fas fa-percentage text-info mb-3" style="font-size: 3rem;"></i>
+                        <h3 class="fw-bold text-info">78%</h3>
+                        <p class="text-muted">Success Rate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Projects -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="display-5 fw-bold text-center mb-5">Featured Projects</h2>
+        <div class="row">
+            <!-- Project 1 -->
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="fw-bold mb-0"><i class="fas fa-leaf me-2"></i>GreenTech Innovation</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <span class="badge bg-success">Horizon Europe</span>
+                            <span class="badge bg-info">€2.8M</span>
+                        </div>
+                        <p class="card-text">Revolutionary carbon capture technology development project involving 8 European partners.</p>
+                        <ul class="list-unstyled small">
+                            <li><strong>Duration:</strong> 36 months</li>
+                            <li><strong>Partners:</strong> 8 organizations</li>
+                            <li><strong>Countries:</strong> 6 EU countries</li>
+                            <li><strong>Sector:</strong> Environmental Technology</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-light">
+                        <small class="text-muted">Completed 2024 • Impact: 40% CO2 reduction</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="fw-bold mb-0"><i class="fas fa-robot me-2"></i>AI4Healthcare</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <span class="badge bg-success">Digital Europe</span>
+                            <span class="badge bg-info">€4.2M</span>
+                        </div>
+                        <p class="card-text">AI-powered diagnostic tools for early disease detection in healthcare systems across Europe.</p>
+                        <ul class="list-unstyled small">
+                            <li><strong>Duration:</strong> 42 months</li>
+                            <li><strong>Partners:</strong> 12 organizations</li>
+                            <li><strong>Countries:</strong> 9 EU countries</li>
+                            <li><strong>Sector:</strong> Healthcare & AI</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-light">
+                        <small class="text-muted">Ongoing • Impact: 25% faster diagnosis</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="fw-bold mb-0"><i class="fas fa-graduation-cap me-2"></i>EduConnect</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <span class="badge bg-success">Erasmus+</span>
+                            <span class="badge bg-info">€1.5M</span>
+                        </div>
+                        <p class="card-text">Digital platform connecting universities for collaborative research and student exchange programs.</p>
+                        <ul class="list-unstyled small">
+                            <li><strong>Duration:</strong> 24 months</li>
+                            <li><strong>Partners:</strong> 15 universities</li>
+                            <li><strong>Countries:</strong> 10 EU countries</li>
+                            <li><strong>Sector:</strong> Education & Technology</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-light">
+                        <small class="text-muted">Completed 2023 • Impact: 5,000+ students</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="fw-bold mb-0"><i class="fas fa-solar-panel me-2"></i>SolarCity</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <span class="badge bg-success">LIFE Programme</span>
+                            <span class="badge bg-info">€3.7M</span>
+                        </div>
+                        <p class="card-text">Smart city solar energy integration project demonstrating sustainable urban development.</p>
+                        <ul class="list-unstyled small">
+                            <li><strong>Duration:</strong> 48 months</li>
+                            <li><strong>Partners:</strong> 6 cities</li>
+                            <li><strong>Countries:</strong> 4 EU countries</li>
+                            <li><strong>Sector:</strong> Renewable Energy</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-light">
+                        <small class="text-muted">Ongoing • Impact: 60% energy savings</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="fw-bold mb-0"><i class="fas fa-seedling me-2"></i>AgriTech Future</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <span class="badge bg-success">Horizon Europe</span>
+                            <span class="badge bg-info">€5.1M</span>
+                        </div>
+                        <p class="card-text">Precision agriculture technology for sustainable farming and food security in Europe.</p>
+                        <ul class="list-unstyled small">
+                            <li><strong>Duration:</strong> 36 months</li>
+                            <li><strong>Partners:</strong> 10 organizations</li>
+                            <li><strong>Countries:</strong> 7 EU countries</li>
+                            <li><strong>Sector:</strong> Agriculture & Technology</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-light">
+                        <small class="text-muted">Starting 2025 • Target: 30% yield increase</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="fw-bold mb-0"><i class="fas fa-shield-alt me-2"></i>CyberSecure</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <span class="badge bg-success">Digital Europe</span>
+                            <span class="badge bg-info">€2.3M</span>
+                        </div>
+                        <p class="card-text">Advanced cybersecurity framework for critical infrastructure protection across Europe.</p>
+                        <ul class="list-unstyled small">
+                            <li><strong>Duration:</strong> 30 months</li>
+                            <li><strong>Partners:</strong> 7 organizations</li>
+                            <li><strong>Countries:</strong> 5 EU countries</li>
+                            <li><strong>Sector:</strong> Cybersecurity</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer bg-light">
+                        <small class="text-muted">Completed 2024 • Impact: Enhanced security</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Project Categories -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="display-5 fw-bold text-center mb-5">Project Categories</h2>
+        <div class="row">
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="text-center">
+                    <div class="rounded-circle bg-primary d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                        <i class="fas fa-microscope text-white" style="font-size: 2rem;"></i>
+                    </div>
+                    <h5 class="fw-bold">Research & Innovation</h5>
+                    <p class="text-muted">45 projects</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="text-center">
+                    <div class="rounded-circle bg-success d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                        <i class="fas fa-leaf text-white" style="font-size: 2rem;"></i>
+                    </div>
+                    <h5 class="fw-bold">Environmental</h5>
+                    <p class="text-muted">32 projects</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="text-center">
+                    <div class="rounded-circle bg-info d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                        <i class="fas fa-laptop-code text-white" style="font-size: 2rem;"></i>
+                    </div>
+                    <h5 class="fw-bold">Digital Technology</h5>
+                    <p class="text-muted">38 projects</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="text-center">
+                    <div class="rounded-circle bg-warning d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                        <i class="fas fa-graduation-cap text-white" style="font-size: 2rem;"></i>
+                    </div>
+                    <h5 class="fw-bold">Education & Training</h5>
+                    <p class="text-muted">28 projects</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="display-5 fw-bold text-center mb-5">What Our Clients Say</h2>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body p-4">
+                        <div class="text-center mb-3">
+                            <i class="fas fa-quote-left text-primary" style="font-size: 2rem;"></i>
+                        </div>
+                        <p class="card-text">"EuroFunds Consulting made the impossible possible. Their expertise in Horizon Europe helped us secure €4.2M for our AI healthcare project."</p>
+                    </div>
+                    <div class="card-footer bg-light">
+                        <div class="text-center">
+                            <strong>Dr. Sarah Johnson</strong><br>
+                            <small class="text-muted">CEO, MedTech Innovations</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body p-4">
+                        <div class="text-center mb-3">
+                            <i class="fas fa-quote-left text-primary" style="font-size: 2rem;"></i>
+                        </div>
+                        <p class="card-text">"Professional, knowledgeable, and results-driven. They guided us through every step of the LIFE Programme application process."</p>
+                    </div>
+                    <div class="card-footer bg-light">
+                        <div class="text-center">
+                            <strong>Marco Rossi</strong><br>
+                            <small class="text-muted">Director, GreenEnergy Solutions</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body p-4">
+                        <div class="text-center mb-3">
+                            <i class="fas fa-quote-left text-primary" style="font-size: 2rem;"></i>
+                        </div>
+                        <p class="card-text">"Their network of European partners was invaluable. We formed a strong consortium that led to our project's success."</p>
+                    </div>
+                    <div class="card-footer bg-light">
+                        <div class="text-center">
+                            <strong>Prof. Anna Kowalski</strong><br>
+                            <small class="text-muted">University of Warsaw</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-5 bg-primary text-white">
+    <div class="container text-center">
+        <h2 class="display-5 fw-bold mb-4">Start Your Success Story</h2>
+        <p class="lead mb-4">Join our growing list of successful European projects. Let's discuss how we can help you secure funding.</p>
+        <a href="{{ url_for('contact') }}" class="btn btn-light btn-lg px-5">Discuss Your Project</a>
+    </div>
+</section>
+{% endblock %}
